@@ -1,0 +1,6 @@
+<div class="box" *ngIf="isDisplayBox">
+
+</div>
+
+<button *ngIf="isDisplayBox" (click)="hideBox()">Hide</button>
+<button *ngIf="!isDisplayBox" (click)="hideBox()">Display</button>
