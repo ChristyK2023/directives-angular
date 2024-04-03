@@ -1,6 +1,18 @@
-<div class="box" *ngIf="isDisplayBox">
+<!-- Diective *ngFor -->
+<ul>
+  <li *ngFor="let item of items">
+    <a href="">{{ item }}</a>
+  </li>
+</ul>
 
-</div>
 
-<button *ngIf="isDisplayBox" (click)="hideBox()">Hide</button>
-<button *ngIf="!isDisplayBox" (click)="hideBox()">Display</button>
+
+<!--
+  Directive *ngIf
+  <div class="box" *ngIf="isDisplayBox">
+
+  </div>
+
+  <button *ngIf="isDisplayBox" (click)="hideBox()">Hide</button>
+  <button *ngIf="!isDisplayBox" (click)="hideBox()">Display</button>
+-->

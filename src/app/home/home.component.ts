@@ -7,7 +7,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit{
 
-  isDisplayBox: boolean = true;
+  isDisplayBox: boolean = true
+  items: string[] = [
+    'Home',
+    'Products',
+    'Blog',
+    'Contact'
+  ]
 
   constructor () { }
 
