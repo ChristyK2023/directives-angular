@@ -1,11 +1,22 @@
-<!-- Diective *ngFor -->
-<ul>
-  <li *ngFor="let item of items">
-    <a href="">{{ item }}</a>
-  </li>
-</ul>
+<!-- Directive ngClass -->
+
+<div [ngClass]="{
+  'red': error,
+  'green': !error
+  }"
+>
+  Hello World !
+</div>
 
 
+
+<!-- Directive *ngFor
+  <ul>
+    <li *ngFor="let item of items">
+      <a href="">{{ item }}</a>
+    </li>
+  </ul>
+-->
 
 <!--
   Directive *ngIf

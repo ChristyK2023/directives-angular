@@ -15,6 +15,8 @@ export class HomeComponent implements OnInit{
     'Contact'
   ]
 
+  error: boolean = false
+
   constructor () { }
 
   ngOnInit(): void {
